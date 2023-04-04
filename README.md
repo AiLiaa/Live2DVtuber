@@ -65,6 +65,6 @@ python和unity进程通信实现：建立TCP连接，将py数据传输到unity
 
 ## 演示
 
-![](images/1.mp4)
+![](images/1.gif)
 
-![](images/2.mp4)
+![](images/2.gif)
