@@ -29,64 +29,11 @@ Implementation of communication between Python and Unity processes: establish a 
 ### Environmental construction: 
 
 - **Python 3.6**
-- **cmake 3.23.0** : Project building tools
-- **boost 1.79.0** : C++open source library
-- **Dlib 9.0.0** : Open source library for facial recognition
+- **MediaPipe** : A Multimedia Machine Learning Model Application Framework
 - **OpenCV** : Cross platform computer vision and machine learning software library
 - **NumPy** : Python version 3.5 or higher is required. The Python library is mainly used to perform calculations on multidimensional arrays
-- **OpenGL 3.1.6** : A software interface for rendering 2D and 3D vector graphics hardware
 - **vs2019**
-
-#### Install and configure Python 3.6
-
-Installation website: http://www.python.org/download/
-
-Download Windows x86-64 executable installer
-
-Add environment variables and user variable `path`
-
-For example:
-`C:\Users\86177\AppData\Local\Programs\Python\Python36`
-`C:\Users\86177\AppData\Local\Programs\Python\Python36\Scripts`
-
-#### Install cmake
-
-Installation website: https://cmake.org/download/ 
-
-#### Install boost
-
-Installation website: http://www.boost.org/users/history/
-
-After decompression, execute `bootstrap. bat` in the Boost directory
-
-After execution, run `b2.exe` in the directory
-
-After these, the boot compilation is completed
-
-Add environment variables and user variable `path`
-For example:
-`BOOST_ROOT = D:\boost_1_79_0`
-`BOOST_LIBRARYDIR = D:\boost_1_79_0\stage\lib`
-
-Compile the Python library 
-
-```
-b2 -a --with-python address-model=32 toolset=msvc runtime-link=static
-```
-
-#### Install Opencv
-
-```
-pip install opencv-python
-```
-
-#### Install dlib
-
-In the development of Dlib, the boost library is used, and cmake is used for compilation. Before installing these two libraries, they must be installed first. If they are not installed, errors may occur
-```
-pip install dlib
-```
-
+- **unity2019**
 
 ## Maintainers
 
