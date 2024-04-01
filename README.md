@@ -29,13 +29,8 @@
 ### 环境搭建: 
 
 - Python 3.6
-- MediaPipe 一款多媒体机器学习模型应用框架
-- OpenCV 跨平台计算机视觉和机器学习软件库
-- NumPy 要求python版本在3.5以上.Python库，主要用于对多维数组执行计算
+- MediaPipe
+- OpenCV
 - vs2019
 - unity2019
 
-
-## 主要项目负责人
-
-[@AiLiAA](https://github.com/AiLiaa)
