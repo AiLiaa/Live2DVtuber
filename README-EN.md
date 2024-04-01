@@ -29,13 +29,8 @@ Implementation of communication between Python and Unity processes: establish a 
 ### Environmental construction: 
 
 - **Python 3.6**
-- **MediaPipe** : A Multimedia Machine Learning Model Application Framework
-- **OpenCV** : Cross platform computer vision and machine learning software library
-- **NumPy** : Python version 3.5 or higher is required. The Python library is mainly used to perform calculations on multidimensional arrays
+- **MediaPipe**
+- **OpenCV**
 - **vs2019**
 - **unity2019**
-
-## Maintainers
-
-[@AiLiAA](https://github.com/AiLiaa)
 
